@@ -32,8 +32,8 @@ int main() {
 			down = l + 1;
 		}
 	}
-	std::cout << "Decimal interpretation (15 digits): " << (long double) up / down << std::endl;
 	std::cout << "Common fraction: " << up << '/' << down << std::endl;
-	std::cout << "Difference between fraction and Pi constant number: " << ans << std::endl;
+	std::cout << "Decimal interpretation (15 digits): " << (long double) up / down << std::endl;
+    std::cout << "Difference between fraction and Pi constant number: " << ans << std::endl;
 	return 0;
 }
